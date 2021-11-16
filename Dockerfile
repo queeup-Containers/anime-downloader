@@ -2,7 +2,7 @@ FROM python:3-alpine AS base
 
 FROM base AS builder
 
-ARG COMMIT=b28dffe87fad061f4d4ad0f16592c53eded2f3f9
+ARG COMMIT=1777116b0a70373b14d4e543e1d897e96d019f65
 
 RUN apk --no-cache add git gcc musl-dev &&\
   pip install --no-cache-dir \
