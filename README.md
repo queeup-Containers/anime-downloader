@@ -2,11 +2,14 @@
 
 **[anime-downloader](https://github.com/anime-dl/anime-downloader) in a container**
 
-
-
-**_Pull from hub.docker.com:_**
+**_Pull from docker.io:_**
 ```
 $ docker pull queeup/anime-downloader
+```
+
+**_Pull from ghcr.io:_**
+```
+$ docker pull ghcr.io/queeup/anime-downloader
 ```
 
 **_Volumes:_**
